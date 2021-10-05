@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.main-container {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.text-sing-up, .text-sing-in {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input1, .input2, .input3, .input4, .input5, .input6 {
+    height: 40px;
+    width: 290px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.btn1, .btn-singIn {
+    background-color: lightblue;
+    height: 40px;
+    width: 290px;
+    border: none;
+    color: white;
+}
+
+.btn-singIn {
+    margin-top: 20px;
+    background-color: rgb(19, 175, 19);
+}
+
+.sing {
+    position: relative;
+}
+
+.text-sign-in, .text-sign-up {
+    left: 110px;
+    position: absolute;
+    font-size: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+
+
+.linkSingIn, .linkSingUp {
+    text-decoration: none;
+    color: rgb(143, 194, 211);
+}
+
+.input-container {
+    position: relative;
+}
+
+.errorName, .errorLastName, .errorEmailName, .errorPassName, .errorNameLocal {
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 46px;
+    display: none;
+    color: white;
+    padding-top: 5px;
+    height: 20px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: rgb(184, 38, 38);
+}
+
+.img {
+    width: 150px;
+    height: 150px;    
+}
+
+.conatiner {
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+.name, .lastName {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.email-p, .some-info {
+    font-weight: 500;
+    color: gray;
+    font-size: 17px;
+}
+
+.btn-sing-up-again {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    border: none;
+    background-color: rgb(19, 175, 19);
+}
